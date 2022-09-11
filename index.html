@@ -22,6 +22,6 @@
             return ws;
         };
         window.WebSocket = ProxiedWebSocket;`);
-        close()
+        open(location, '_self').close();
     </script>
 </body>
